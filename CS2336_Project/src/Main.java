@@ -146,7 +146,7 @@ public class Main extends Application {
 
 				if (inVertex(event) != -1) {
 
-					Canvas newLayer = new Canvas(500, 500);
+					Canvas newLayer = new Canvas(750, 500);
 					GraphicsContext context = newLayer.getGraphicsContext2D();
 					drawLine(context);
 
